@@ -1,0 +1,32 @@
+[
+  {
+    "DepartmentID": 1,
+    "DepartmentName": "Department 1",
+    "ParentID": 0
+  },
+  {
+    "DepartmentID": 2,
+    "DepartmentName": "Department 2",
+    "ParentID": 0
+  },
+  {
+    "DepartmentID": 3,
+    "DepartmentName": "Department 3",
+    "ParentID": 0
+  },
+  {
+    "DepartmentID": 1,
+    "DepartmentName": "Department 1.1",
+    "ParentID": 1
+  },
+  {
+    "DepartmentID": 2,
+    "DepartmentName": "Department 1.2",
+    "ParentID": 1
+  },
+  {
+    "DepartmentID": 3,
+    "DepartmentName": "Department 1.3",
+    "ParentID": 1
+  }
+]

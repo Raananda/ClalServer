@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using ServerTemplateSlim.Infra.DTO;
 using ServerTemplateSlim.Infra.DTO.JsonLocalStorage;
 using ServerTemplateSlim.Infra.Interfaces.BLL;
 using System.Collections.Generic;
@@ -22,7 +23,7 @@ namespace ServerTemplateSlim.Controllers
 
         [HttpGet]
         [Route("get-json-data")]
-        public async Task<ActionResult<List<UserDTO>>> GetInit()
+        public async Task<ActionResult<AllData>> GetInit()
         {
             return await _jsonLocalFileService.GetJsonData();
         }
